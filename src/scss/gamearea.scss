@@ -1,0 +1,60 @@
+.board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: 0 auto;
+    background-image: url(../img/board.jpg);
+    background-repeat: no-repeat;
+
+    &__message {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: rgb(83, 175, 19);
+        font-family: 'Times New Roman', serif;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+}
+
+.gamearea {
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0px;
+    &__cell {
+        width: 94px;
+        height: 94px;
+    }
+}
+
+.value-entry-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+    &__input {
+        background-color: rgb(152, 207, 113); 
+        border-color: rgb(83, 175, 19); 
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+}
+
+.btn {
+    cursor: pointer;
+    text-transform: none;
+}
+
+.hit {
+    background-image: url(/src/img/ship.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.miss {
+    background-image: url(/src/img/miss.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}

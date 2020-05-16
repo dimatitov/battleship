@@ -1,0 +1,23 @@
+header {
+    font-family: Pixel, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.btls-text {
+    text-align: center;
+    color: blue;
+    &__title {
+        font-size: 150px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    &__subtitle {
+        font-size: 50px;
+        margin: 0;
+    }
+}
+
