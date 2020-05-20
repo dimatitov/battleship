@@ -47,6 +47,7 @@ header {
   font-family: 'Times New Roman', serif;
   font-size: 30px;
   text-transform: uppercase;
+  max-width: 750px;
 }
 
 .gamearea {
@@ -82,13 +83,13 @@ header {
 }
 
 .hit {
-  background-image: url(/src/img/ship.png);
+  background-image: url(/img/ship.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .miss {
-  background-image: url(/src/img/miss.png);
+  background-image: url(/img/miss.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -99,6 +100,6 @@ body {
 
 .webp .board { background-image: url(../img/board.webp); }
 
-.webp .hit { background-image: url(/src/img/ship.webp); }
+.webp .hit { background-image: url(/img/ship.webp); }
 
-.webp .miss { background-image: url(/src/img/miss.webp); }
+.webp .miss { background-image: url(/img/miss.webp); }
